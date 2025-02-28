@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Datos del proyecto -->
+    <groupId>com.SieraCode</groupId>  <!-- Tu organización o nombre de dominio -->
+    <artifactId>task-management-system</artifactId>  <!-- Sin espacios, con guiones -->
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging> <!-- Puede ser 'jar', 'war', dependiendo de tu proyecto -->
+
+    <!-- Propiedades -->
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source> <!-- Java 17 -->
+        <maven.compiler.target>17</maven.compiler.target> <!-- Java 17 -->
+    </properties>
+
+    <!-- Dependencias -->
+    <dependencies>
+        <!-- Ejemplo de dependencia de JUnit para pruebas unitarias -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>  <!-- Puedes cambiar a la versión que necesites -->
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Dependencia para trabajar con Spring (si lo necesitas) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.6</version> <!-- Cambia la versión si es necesario -->
+        </dependency>
+
+        <!-- Aquí puedes agregar otras dependencias que utilices en tu proyecto -->
+    </dependencies>
+
+    <!-- Plugins de Maven -->
+    <build>
+        <plugins>
+            <!-- Plugin para compilar Java -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>17</source>  <!-- Usamos Java 17 -->
+                    <target>17</target>  <!-- Usamos Java 17 -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
