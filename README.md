@@ -1,7 +1,3 @@
-Sure! Here's the `README.md` file in English:
-
----
-
 # Task Management System
 
 ## Description
@@ -22,7 +18,6 @@ This is a task management system designed to help users organize and track their
 ## Installation
 
 1. **Clone the repository**:
-   git clone https://github.com/yourusername/task-management-system.git
 
 2. **Navigate to the project directory**:
    cd task-management-system
@@ -38,7 +33,7 @@ This is a task management system designed to help users organize and track their
 
  
    mvn exec:java
-   
+
 ## Project Structure
 
 Here is an overview of the project directory structure:
@@ -48,15 +43,15 @@ src/
 │   ├── java/
 │   │   ├── com/
 │   │   │   ├── sieraCode/
-│   │   │   │   ├── model/                # POJOs: User, Task, Category
-│   │   │   │   ├── dao/                  # DAOs: UserDAO, TaskDAO
-│   │   │   │   ├── service/              # Services: UserService, TaskService
-│   │   │   │   ├── exception/            # Custom exceptions
-│   │   │   │   ├── config/               # General configuration (database, properties)
-│   │   │   │   └── Main.java             # Main class (entry point)
-│   ├── resources/                        # Configuration files and SQL
-│   └── backups/                          # Generated CSV files
-├── test/                                 # Unit tests
+│   │   │   │   ├── model/                
+│   │   │   │   ├── dao/                  
+│   │   │   │   ├── service/              
+│   │   │   │   ├── exception/            
+│   │   │   │   ├── config/               
+│   │   │   │   └── Main.java             
+│   ├── resources/                        
+│   └── backups/                          
+├── test/                                 
 │   └── java/
 │       └── com/
 │           └── sieraCode/
