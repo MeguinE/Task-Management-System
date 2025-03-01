@@ -35,7 +35,14 @@
             <version>5.3.6</version> <!-- Cambia la versión si es necesario -->
         </dependency>
 
-        <!-- Aquí puedes agregar otras dependencias que utilices en tu proyecto -->
+        <!--Dependecia para la conexion a la base de datos MySQL-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+
+        
     </dependencies>
 
     <!-- Plugins de Maven -->
