@@ -15,6 +15,7 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source> <!-- Java 17 -->
         <maven.compiler.target>17</maven.compiler.target> <!-- Java 17 -->
+        <maven.compiler.release>17</maven.compiler.release> <!-- Asegura compatibilidad con Java 17 -->
     </properties>
 
     <!-- Dependencias -->
@@ -48,6 +49,7 @@
                 <configuration>
                     <source>17</source>  <!-- Usamos Java 17 -->
                     <target>17</target>  <!-- Usamos Java 17 -->
+                    <release>17</release> <!-- Para asegurarnos de que se use la opción release con Java 17 -->
                 </configuration>
             </plugin>
         </plugins>
