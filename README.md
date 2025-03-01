@@ -32,32 +32,7 @@ This is a task management system designed to help users organize and track their
    Once the build is complete, you can run the application using the following command:
 
  
-   mvn exec:java
-
-## Project Structure
-
-Here is an overview of the project directory structure:
-
-src/
-├── main/
-│   ├── java/
-│   │   ├── com/
-│   │   │   ├── sieraCode/
-│   │   │   │   ├── model/                
-│   │   │   │   ├── dao/                  
-│   │   │   │   ├── service/              
-│   │   │   │   ├── exception/            
-│   │   │   │   ├── config/               
-│   │   │   │   └── Main.java             
-│   ├── resources/                        
-│   └── backups/                          
-├── test/                                 
-│   └── java/
-│       └── com/
-│           └── sieraCode/
-│               ├── service/              # Service tests
-│               └── dao/                  # DAO tests
-└── README.md                             # This file
+   mvn exec:java                         
 
 
 ## Contributing
